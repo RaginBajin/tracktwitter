@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>IPO Stream</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="/javascripts/main.js"></script>
+</head>
+<body>
+	<div class="container">
+		
+		<h1>IPO Stream</h1>
+
+		<div class="well">
+			<div id="tweet-author"></div>
+			<div id="tweet-content">no tweets yet :(</div>
+		</div>
+		
+		<hr>
+		
+		<h2>IPO Mention Count: <div id="counter">0</div></h2>
+	
+	</div>
+</body>
+</html>

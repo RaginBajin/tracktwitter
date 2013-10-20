@@ -1,0 +1,17 @@
+{
+  "name": "tracktwitter",
+  "version": "0.0.1-1",
+  "dependencies": {
+    "express": "2.5.5",
+    "socket.io": "0.9.2",
+    "mu2": "0.5.8",
+    "ntwitter": "*"
+  },
+  "subdomain": "tracktwitter",
+  "scripts": {
+    "start": "app.js"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
